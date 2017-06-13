@@ -17,6 +17,8 @@ out/
 .gradle
 /build
 app/build/
+videorecorder/build/
+videoprocessing/build/
 gradlew
 gradlew.bat
 gradle
@@ -42,6 +44,3 @@ captures/
 *.iws
 .idea/
 .DS_Store
-
-# Keystore files
-*.jks
