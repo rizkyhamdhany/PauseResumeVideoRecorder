@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#999999</color>
+
+    <color name="tada_yellow">#facb1b</color>
+    <color name="tada_orange">#e72d12</color>
+    <color name="tado_red">#FF0000</color>
+    <color name="tangerine">#FFD100</color>
+    <color name="white_smoke">#F5F5F6</color>
+    <color name="shark">#383838</color>
+    <color name="light_gray">#D2D2D2</color>
+    <color name="alto">#DBD9DA</color>
+    <color name="hot_toddy">#A4752D</color>
+
+    <color name="lighter_grey">#eeeeee</color>
+    <color name="light_grey">#cccccc</color>
+    <color name="white">#fff</color>
+    <color name="trans_white">#33ffffff</color>
+    <color name="white_pure">#ffffff</color>
+    <color name="blue">#42A5F5</color>
+    <color name="gold">#99560e</color>
+
+    <color name="red">#cc0000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="dark_transparent">#aa000000</color>
+
+    <color name="black">#111111</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+    <color name="item10">#11000000</color>
+    <color name="GhostWhite">#d0d4d8</color>
+    <color name="gray75">#bf524a4f</color>
+    <color name="border">#929496</color>
+    <color name="white75">#BFFFFFFF</color>
+    <color name="gray_admin_chat">#dbdbdb</color>
+    <color name="grey">#6f6f6f</color>
+
+    <color name="lightungu">#365862</color>
+
+    <color name="lime_green">#31C825</color>
+    <color name="solitude">#EBF3FC</color>
+    <color name="red_notif">#FF0000</color>
+
+    <color name="tado_red_new">#d81f2f</color>
+
+    <color name="light_gray_new">#c3c3c3</color>
+    <color name="light_grayish_pink">#f6f4f5</color>
+    <color name="walktrought_ask_border_color">#facb1b</color>
+    <color name="dark_moderate_orange">#9e7539</color>
+</resources>

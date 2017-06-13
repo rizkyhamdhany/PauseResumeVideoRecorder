@@ -1,0 +1,121 @@
+<!--
+/*
+ * AudioVideoRecordingSample
+ * Sample project to cature audio and video from internal mic/camera and save as MPEG4 file.
+ *
+ * Copyright (c) 2014-2015 saki t_saki@serenegiant.com
+ *
+ * File name: fragment_main.xml
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ * All files in the folder are under this Apache License, Version 2.0.
+*/
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/black">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/black">
+
+		<com.serenegiant.audiovideosample.CameraGLView
+			android:id="@+id/cameraView"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_centerInParent="true" />
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#88222222"
+			android:layout_alignParentTop="true"
+			android:padding="20dp">
+			<ImageView
+				android:id="@+id/close_button"
+				android:layout_width="35dp"
+				android:layout_height="35dp"
+				android:src="@drawable/id_delete"
+				android:padding="5dp"
+				android:layout_centerVertical="true"/>
+			<com.serenegiant.audiovideosample.Chronometer
+				android:id="@+id/timer"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="@color/white"
+				android:layout_centerVertical="true"
+				android:layout_centerHorizontal="true"
+				android:text="00.0 sec"
+				android:textSize="16sp"/>
+			<ImageView
+				android:id="@+id/cam_switch_button"
+				android:layout_alignParentRight="true"
+				android:layout_width="35dp"
+				android:layout_height="35dp"
+				android:padding="5dp"
+				android:src="@drawable/ic_switch_cam"
+				android:layout_centerVertical="true"
+				android:layout_marginLeft="20dp"/>
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#88222222"
+			android:layout_alignParentBottom="true"
+			android:padding="20dp">
+			<TextView
+				android:id="@+id/retake"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Retake"
+				android:textColor="@color/white"
+				android:layout_centerVertical="true"
+				android:layout_toLeftOf="@+id/camera_control"
+				android:padding="10dp"
+				android:layout_marginRight="30dp"
+				android:textSize="16sp"/>
+			<ImageView
+				android:layout_width="70dp"
+				android:layout_height="70dp"
+				android:layout_gravity="bottom|center_horizontal"
+				android:layout_centerHorizontal="true"
+				android:src="@drawable/record_button_border"/>
+
+			<ImageView
+				android:id="@+id/camera_control"
+				android:layout_width="54dp"
+				android:layout_height="54dp"
+				android:layout_centerHorizontal="true"
+				android:layout_centerVertical="true"
+				android:src="@drawable/record_button" />
+			<TextView
+				android:id="@+id/done"
+				android:layout_toRightOf="@+id/camera_control"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Done"
+				android:textColor="@color/white"
+				android:layout_centerVertical="true"
+				android:padding="10dp"
+				android:layout_marginLeft="30dp"
+				android:textSize="16sp"/>
+		</RelativeLayout>
+
+	</RelativeLayout>
+
+</LinearLayout>
